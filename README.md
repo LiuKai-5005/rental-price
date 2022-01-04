@@ -1,4 +1,4 @@
-# 自己写脚本每日爬取租房价格
+# 使用Python脚本，每日爬取租房价格
 
 在美国旧金山湾区生活工作，租房是一个很重要的事情，也是每个月的开销的大头。
 
@@ -32,9 +32,9 @@ https://www.essexapartmenthomes.com/EPT_Feature/PropertyManagement/Service/GetPr
 经过仔细研究后，发现这个获取租房信息的GET请求本身还支持一些参数，如最低价格，最高价格，预期入住日期等，接下来就是代码实现了
 
 # 同理
-Avalon公寓的`GET`的URL是 Request URL: https://www.avaloncommunities.com/california/mountain-view-apartments/avalon-mountain-view/Apartment/CA049-CA049-00G-360
-或者指定价格区间以及入住日期
-https://api.avalonbay.com/json/reply/ApartmentSearch?communityCode=CA049&min=2000&max=4000&desiredMoveInDate=2022-03-01T07:00:00.000Z
+Avalon公寓的`GET`的URL是：https://api.avalonbay.com/json/reply/ApartmentSearch?communityCode=CA049&min=2000&max=4000&desiredMoveInDate=2022-03-01T07:00:00.000Z
+可以指定价格区间以及入住日期，使用`Postman`拿到`Json`之后就可以拿到公寓价格等信息了。
+![avalon](https://user-images.githubusercontent.com/54691613/148008618-c3a0d534-8073-4c30-b1f5-a6b936b550ab.png)
 
 ## 代码
 见repo
