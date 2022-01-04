@@ -31,6 +31,11 @@ https://www.essexapartmenthomes.com/EPT_Feature/PropertyManagement/Service/GetPr
 
 经过仔细研究后，发现这个获取租房信息的GET请求本身还支持一些参数，如最低价格，最高价格，预期入住日期等，接下来就是代码实现了
 
+# 同理
+Avalon公寓的`GET`的URL是 Request URL: https://www.avaloncommunities.com/california/mountain-view-apartments/avalon-mountain-view/Apartment/CA049-CA049-00G-360
+或者指定价格区间以及入住日期
+https://api.avalonbay.com/json/reply/ApartmentSearch?communityCode=CA049&min=2000&max=4000&desiredMoveInDate=2022-03-01T07:00:00.000Z
+
 ## 代码
 见repo
 
