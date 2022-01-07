@@ -43,7 +43,7 @@ Avalon公寓的`GET`的URL是：https://api.avalonbay.com/json/reply/ApartmentSe
 见repo
 
 ## 结果
-这里仅展示了`C3`户型的价格走势图
+这里展示了`C3`户型在不同的入住时间的价格走势图
 ![house_price_2022-01-02_2022-03-04](https://user-images.githubusercontent.com/54691613/147894436-3faccae7-2438-4f16-bf55-6a929f9a27fb.png)
 
 
